@@ -35,6 +35,11 @@ argocd app create guestbook \
   --dest-namespace default
 ```
 👉 At this point, you can sync the app with:
-
+```
 argocd app sync guestbook
-Do you want me to also include the port-forwarding command so you can actually access the ArgoCD UI in the browser (localhost:8080)?
+```
+
+6. To delete the Guestbook app
+```
+argocd app delete guestbook
+```
