@@ -13,11 +13,11 @@ argocd admin initial-password -n argocd
 ```
 
 3. Login to the ArgoCD Server
-Use the username admin and the password from step 2 to login. For example, If port-forwarding is set up on 127.0.0.1:8080, log in with:
+Use the username admin and the password obtain from step 2 to login. For example, If port-forwarding is set up on 127.0.0.1:8080, log in with:
 ```
 argocd login 127.0.0.1:8080
 ```
-**Replace 127.0.0.1 with your own local IP address
+**Replace 127.0.0.1 with your own local IP address***
 
 4. Set the Current Namespace to argocd
 This makes CLI commands automatically run in the argocd namespace:
