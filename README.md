@@ -1,4 +1,4 @@
-# 🔑 How to Login to ArgoCD on Your Local Cluster Using the CLI
+# 🔑 How to Login to ArgoCD on Your Local Cluster Using Argocd CLI
 
 ## 1. Install the ArgoCD CLI
 If you’re on macOS, install with Homebrew:
@@ -43,3 +43,6 @@ argocd app sync guestbook
 ```
 argocd app delete guestbook
 ```
+Article by:
+
+Shiller Calixte @ DevSpace365
